@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Potta One', cursive;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.paginatoda {
+  background-image: linear-gradient(white, blue);
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  box-sizing: border-box;
+  position: relative;
+  text-align: center;
+}
+
+.titulocont {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo {
+  font-size: 3rem;
+}
+
+.contpontuacao {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerdecards {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  margin-top: 1em;
+  padding: 1em;
+}
+
+.cardacertos {
+  flex: 1;
+  height: 100%;
+  background-color: rgba(0, 255, 0, 40%);
+  border-radius: 10px;
+  margin-right: 1em;
+  margin-left: 1em;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 60%);
+  overflow: hidden;
+}
+.cardcentral {
+  flex: 1.5;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 40%);
+  flex-direction: column;
+  display: flex;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 60%);
+}
+
+.carderros {
+  flex: 1;
+  height: 100%;
+  background-color: rgba(255, 0, 0, 40%);
+  border-radius: 10px;
+  margin-right: 1em;
+  margin-left: 1em;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 60%);
+  overflow: hidden;
+}
+
+.containertimer {
+  display: flex;
+  width: 100%;
+  height: 10%;
+  align-items: center;
+  justify-content: center;
+}
+
+.divdaimage {
+  flex: 4;
+  background-image: url(./imgs/dog.jpg);
+  background-size: 50% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.nomeanimal {
+  flex: 1;
+
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.footer {
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.pontcard {
+  background-color: rgba(255, 255, 255, 20%);
+  height: 100%;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 50%;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 60%);
+}
+
+.titulinho {
+  font-size: 1.5em;
+}
+
+.acertou {
+  background-color: rgba(0, 255, 0, 80%);
+  border-radius: 15px;
+  padding: 1em;
+  margin: 1em;
+  width: 20%;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 60%);
+}
+
+.errou {
+  background-color: rgba(255, 0, 0, 80%);
+  border-radius: 15px;
+  padding: 1em;
+  margin: 1em;
+  width: 20%;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 60%);
+}
+
+#pontosnome {
+  padding-right: 1em;
+}
